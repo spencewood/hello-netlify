@@ -1,0 +1,2 @@
+/.netlify/functions/test
+  cache-control: max-age=300
