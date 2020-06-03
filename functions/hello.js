@@ -3,7 +3,7 @@ exports.handler = async (event) => {
   return {
     statusCode: 200,
     headers: {
-      "Cache-Control": "max-age=300",
+      "Cache-Control": "s-maxage=300",
     },
     body: `${greeting} ${subject}!`,
   };
